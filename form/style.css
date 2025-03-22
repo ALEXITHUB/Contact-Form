@@ -1,0 +1,78 @@
+.firstcontainer {
+    background-color: #E0F1E7;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstcontainer h1{
+    font-size: 24px;
+}
+
+.formcontainer {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Ajoute une légère ombre */
+}
+input{
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    
+}
+#email{
+    max-width: 500px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.query-type-container {
+    display: flex;
+    gap: 10px; /* Espace entre les boîtes */
+}
+
+.query-box {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espace entre le bouton radio et le texte */
+    padding: 10px 20px;
+    border: 2px solid #D1D5DB; /* Couleur de la bordure */
+    border-radius: 8px; /* Coins arrondis */
+    cursor: pointer;
+    font-size: 16px;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.query-box:hover {
+    border-color: #10B981; /* Couleur au survol */
+}
+
+.query-box input {
+    accent-color: #10B981; /* Couleur du bouton radio */
+}
+
+#Message{
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+    max-height: 500px;
+    height: 100%;
+}
+
+#submitbutton{
+    background-color: hsl(169, 82%, 27%);
+    color: white; 
+    font-size: 16px;
+    font-weight: bold; 
+    width: 100%; 
+    max-width: 400px;
+    padding: 15px;
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer;
+    display: block; 
+    margin: 20px auto; 
+    text-align: center; 
+}

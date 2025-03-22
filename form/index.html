@@ -8,7 +8,7 @@
     <title>Contact form</title>
 </head>
 <body>
-    <div class="1stcontainer">
+    <div class="firstcontainer">
         <div class="formcontainer">
             <h1>Contact Us</h1>
             <form>
@@ -24,21 +24,20 @@
                 </div>
                 <label for="email">Email Address *</label> <br>
                 <input type="text" id="email" name="email">
-
-                <p>Query Type</p>
-                <div class="row">
-                    <div class="col">
-                        <input type="radio" id="QueryType1" name="QueryType1"> 
-                        <label for="QueryType1">General Enquiry</label>
-                    </div>
-                    <div class="col">
-                        <input type="radio" id="QueryType2" name="QueryType2"> 
-                        <label for="QueryType2"> Support Request</label>
-                    </div>
-                </div>
+                <p>Query Type *</p>
+                <div class="query-type-container">
+                    <label class="query-box">
+                        <input type="radio" name="queryType" value="general">
+                        General Enquiry
+                    </label>
+                    <label class="query-box">
+                        <input type="radio" name="queryType" value="support">
+                        Support Request
+                    </label>
+                </div>                
                 <div class="MessageContainer">
                     <label for="Message">Message *</label> <br>
-                    <input class="form-control form-control-sm" type="text"> <br> <br>
+                    <textarea id="Message" name="Message"></textarea> <br>
                 </div>
                 <div class="consent">
                     <input type="checkbox" id="consentCheck" name="consentCheck">
