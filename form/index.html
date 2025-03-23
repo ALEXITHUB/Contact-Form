@@ -16,14 +16,18 @@
                     <div class="col">
                         <label for="fname">First Name *</label> <br>
                         <input type="text" id="fname" name="fname">
+                        <span class="error-message" id="error-fname"></span>
                     </div>
                     <div class="col">
                         <label for="lname">Last Name *</label> <br>
                         <input type="text" id="lname" name="lname">
+                        <span class="error-message" id="error-lname"></span>
                     </div>
                 </div>
                 <label for="email">Email Address *</label> <br>
                 <input type="text" id="email" name="email">
+                <span class="error-message" id="error-email"></span>
+
                 <p>Query Type *</p>
                 <div class="query-type-container">
                     <label class="query-box">
@@ -34,14 +38,17 @@
                         <input type="radio" name="queryType" value="support">
                         Support Request
                     </label>
+                    <span class="error-message" id="error-QueryType"></span>
                 </div>                
                 <div class="MessageContainer">
                     <label for="Message">Message *</label> <br>
                     <textarea id="Message" name="Message"></textarea> <br>
+                    <span class="error-message" id="error-message"></span>
                 </div>
                 <div class="consent">
                     <input type="checkbox" id="consentCheck" name="consentCheck">
                     <label for="consentCheck">I consent to being contacted by the team *</label>
+                    <span class="error-message" id="error-consent"></span>
                 </div>
                 <div class="submitButton">
                     <input type="submit" id="submitbutton" name="submitbutton">
@@ -49,6 +56,6 @@
             </form>
         </div>
     </div>
-    <scipt src="script.js"></scipt>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -76,3 +76,15 @@ input{
     margin: 20px auto; 
     text-align: center; 
 }
+
+.error-message{
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+}
+
+input.error, textarea.error {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+}
